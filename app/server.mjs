@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/message', (req, res) => {
     const data = req.body;
-    console.log(data);
     try {
         const message = `задача: ${data.taskName} - ${data.messageStatus}`;
         const botSendMessageUrl = `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${userId}&text=${message}`;
