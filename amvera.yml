@@ -1,0 +1,9 @@
+meta:
+  environment: node
+  toolchain:
+    name: npm
+    version: v16.18.0
+
+run:
+  scriptName: app/server.mjs
+  containerPort: 5000

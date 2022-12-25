@@ -13,6 +13,3 @@ bot.onText(/\/register/, (msg, match) => {
 })
 
 console.log('bot is up');
-
-
-
