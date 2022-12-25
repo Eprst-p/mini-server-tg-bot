@@ -2,6 +2,9 @@
   "name": "mini-server-tg-bot",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "v16.18.0"
+  },
   "scripts": {
     "start": "node app/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
