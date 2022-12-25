@@ -1,5 +1,5 @@
 import TelegramBot from 'node-telegram-bot-api';
-import {TOKEN} from "../settings/constants.ts";
+import {TOKEN} from "./constants.mjs";
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
