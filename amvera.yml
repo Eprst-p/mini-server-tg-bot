@@ -5,5 +5,4 @@ meta:
     version: 16
 
 run:
-  scriptName: app/server.mjs
-  containerPort: 80
+  command: npm run start  containerPort: 80
